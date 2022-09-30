@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="widgets/ctk_vis_extended/css/style.css" />
 <!-- here you can include so many js-files as you want -->
 <script type="text/javascript" src="widgets/ctk_vis_extended/js/ctk_vis_extended.js"></script>
+<script type="text/javascript" src="widgets/ctk_vis_extended/js/ctk_vis_extended_control.js"></script>
 
 <!-- the full description of format in data-vis-attrs can be found here:
 	https://github.com/ioBroker/ioBroker.vis/blob/master/www/js/visEditInspect.js#L39
@@ -99,7 +100,7 @@
 	You can do "if" conditions and "for" cycles.
 
 -->
-<script id="tplCtk_vis_extendedShowInstance"
+<!-- <script id="tplCtk_vis_extendedShowInstance"
 		type="text/ejs"
 		class="vis-tpl"
 		data-vis-prev='<div id="prev_tplCtk_vis_extendedShowInstance" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev " style="width: 280px; height: 159px;" > <div class="ctk_vis_extended-class vis-widget-prev-body " style="padding:2px"> OID: hm-rpc.0.EEQ0006629.1.STATE<br> OID value: true<br> Color: <span style="color: rgb(128, 0, 0);">#800000</span><br> htmlText: <textarea readonly="" style="width:100%">asda</textarea></div>'
@@ -118,18 +119,20 @@
 			htmlText: <textarea readonly style="width: calc(100% - 10px)"><%== this.data.attr('htmlText') %></textarea><br>
 		</div>
 	</div>
-</script>
+</script> -->
 
-<script id="tplCtk_vis_extendedHelper"
-		type="text/ejs"
-		class="vis-tpl"
-		data-vis-prev='<div id="prev_tplCtk_vis_extendedHelper" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev " style="width: 280px; height: 159px;" > <div class="ctk_vis_extended-class vis-widget-prev-body " style="padding:2px"> OID: hm-rpc.0.EEQ0006629.1.STATE<br> OID value: true<br> Color: <span style="color: rgb(128, 0, 0);">#800000</span><br> htmlText: <textarea readonly="" style="width:100%">asda</textarea></div>'
-		data-vis-attrs="oid/id;myColor/color;htmlText/text;"
-		data-vis-attrs0="group.extraCtk_vis_extended;extraAttr"
-		data-vis-set="ctk_vis_extended"
-		data-vis-type="helper"
-		data-vis-name="Helper">
+<script
+	id="tplCtk_vis_extended_Control"
+	type="text/ejs"
+	class="vis-tpl"
+	data-vis-prev='<div id="prev_tplCtk_vis_extendedHelper" style="position: relative; text-align: initial;padding: 4px "><div class="vis-widget_prev " style="width: 280px; height: 159px;" > <div class="ctk_vis_extended-class vis-widget-prev-body " style="padding:2px"> OID: hm-rpc.0.EEQ0006629.1.STATE<br> OID value: true<br> Color: <span style="color: rgb(128, 0, 0);">#800000</span><br> htmlText: <textarea readonly="" style="width:100%">asda</textarea></div>'
+	data-vis-attrs="oid/id;myColor/color;htmlText/text;"
+	data-vis-attrs0="group.extraCtk_vis_extended;extraAttr"
+	data-vis-set="ctk_vis_extended"
+	data-vis-type="control_box"
+	data-vis-name="Control_bOX"
+>
 	<div class="vis-widget <%== this.data.attr('class') %>" style="overflow:visible; width: 230px; height: 210px" id="<%= this.data.attr('wid') %>"><%
-		vis.binds['ctk_vis_extended'].createWidget(this.data.wid, this.view, this.data, this.style);
-	%></div>
+			vis.binds['ctk_vis_extended_control'].createWidget(this.data.wid, this.view, this.data, this.style);
+	%>ss</div>
 </script>

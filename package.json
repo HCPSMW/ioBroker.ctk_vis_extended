@@ -22,7 +22,8 @@
     "node": ">= 14"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.6.6"
+    "@iobroker/adapter-core": "^2.6.6",
+    "iobroker.ctk_vis_extended": "file:iobroker.ctk_vis_extended-0.0.1.tgz"
   },
   "devDependencies": {
     "@alcalzone/release-script": "^3.5.9",

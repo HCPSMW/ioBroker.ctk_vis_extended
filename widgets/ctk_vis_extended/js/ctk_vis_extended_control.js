@@ -27,12 +27,12 @@ $.extend(true, systemDictionary, {
 });
 
 // this code can be placed directly in ctk_vis_extended.html
-vis.binds["ctk_vis_extended"] = {
+vis.binds["ctk_vis_extended_control"] = {
 	version: "0.0.1",
 	showVersion: function () {
-		if (vis.binds["ctk_vis_extended"].version) {
-			console.log("Version ctk_vis_extended: " + vis.binds["ctk_vis_extended"].version);
-			vis.binds["ctk_vis_extended"].version = null;
+		if (vis.binds["ctk_vis_extended_control"].version) {
+			console.log("Version ctk_vis_extended_control: " + vis.binds["ctk_vis_extended_control"].version);
+			vis.binds["ctk_vis_extended_control"].version = null;
 		}
 	},
 	createWidget: function (widgetID, view, data, style) {
@@ -40,7 +40,7 @@ vis.binds["ctk_vis_extended"] = {
 		// if nothing found => wait
 		if (!$div.length) {
 			return setTimeout(function () {
-				vis.binds["ctk_vis_extended"].createWidget(widgetID, view, data, style);
+				vis.binds["ctk_vis_extended_control"].createWidget(widgetID, view, data, style);
 			}, 100);
 		}
 
@@ -68,4 +68,4 @@ vis.binds["ctk_vis_extended"] = {
 	},
 };
 
-vis.binds["ctk_vis_extended"].showVersion();
+vis.binds["ctk_vis_extended_control"].showVersion();
