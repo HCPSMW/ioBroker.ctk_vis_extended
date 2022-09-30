@@ -1,0 +1,123 @@
+{
+	"common": {
+		"name": "ctk_vis_extended",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "CTK VIS WIDGET",
+		"titleLang": {
+			"en": "CTK VIS WIDGET",
+			"de": "CTK VIS WIDGET",
+			"ru": "ВИДЖЕТ CTK VIS",
+			"pt": "CTK VIS WIDGET",
+			"nl": "CTK VIS-WIDGET",
+			"fr": "WIDGET VISUALISATION CTK",
+			"it": "CTK VIS WIDGET",
+			"es": "WIDGET DE VISUALIZACIÓN DE CTK",
+			"pl": "CTK VIS WIDGET",
+			"zh-cn": "CTK VIS 小工具"
+		},
+		"desc": {
+			"en": "ctk_vis_extended",
+			"de": "ctk_vis_extended",
+			"ru": "ctk_vis_extended",
+			"pt": "ctk_vis_extended",
+			"nl": "ctk_vis_extended",
+			"fr": "ctk_vis_extended",
+			"it": "ctk_vis_extended",
+			"es": "ctk_vis_extendido",
+			"pl": "ctk_vis_extended",
+			"zh-cn": "ctk_vis_extended"
+		},
+		"authors": ["HCPSMW <sebastian.wien@ctk-gmbh.de>"],
+		"keywords": ["ioBroker", "template", "Smart Home", "home automation"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "ctk_vis_extended.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/HCPSMW/ioBroker.ctk_vis_extended/master/admin/ctk_vis_extended.png",
+		"readme": "https://github.com/HCPSMW/ioBroker.ctk_vis_extended/blob/master/README.md",
+		"loglevel": "info",
+		"restartAdapters": ["vis"],
+		"mode": "daemon",
+		"type": "visualization",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "materialize",
+			"tab": "materialize"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "CTK VIS WIDGET",
+				"de": "CTK VIS WIDGET",
+				"ru": "ВИДЖЕТ CTK VIS",
+				"pt": "CTK VIS WIDGET",
+				"nl": "CTK VIS-WIDGET",
+				"fr": "WIDGET VISUALISATION CTK",
+				"it": "CTK VIS WIDGET",
+				"es": "WIDGET DE VISUALIZACIÓN DE CTK",
+				"pl": "CTK VIS WIDGET",
+				"zh-cn": "CTK VIS 小工具"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			},
+			"vis"
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}
