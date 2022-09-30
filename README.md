@@ -40,8 +40,12 @@ You are almost done, only a few steps left:
 
 ### Best Practices
 
-We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in general. If you're new to ioBroker or Node.js, you should
-check them out. If you're already experienced, you should also take a look at them - you might learn something new :)
+# We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in general. If you're new to ioBroker or Node.js, you should
+
+We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in generaly. If you're new to ioBroker or Node.js, you should
+
+> > > > > > > 266e971d521ebaa609861b14aa10e660d3a16265
+> > > > > > > check them out. If you're already experienced, you should also take a look at them - you might learn something new :)
 
 ### Scripts in `package.json`
 
