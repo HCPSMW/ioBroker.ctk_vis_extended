@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.ctk_vis_extended",
+  "name": "iobroker.ctk_vis_extended2",
   "version": "0.0.1",
   "description": "ctk_vis_extended",
   "author": {
@@ -22,8 +22,7 @@
     "node": ">= 14"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.6.6",
-    "iobroker.ctk_vis_extended": "file:iobroker.ctk_vis_extended-0.0.1.tgz"
+    "@iobroker/adapter-core": "^2.6.6"
   },
   "devDependencies": {
     "@alcalzone/release-script": "^3.5.9",
