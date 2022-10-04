@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "ctk_vis_extended",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "news": {
+      "1.0.3": {
+        "en": "Config",
+        "de": "Konkret",
+        "ru": "Конфиг",
+        "pt": "Configação",
+        "nl": "Confront",
+        "fr": "Config",
+        "it": "Configurazione",
+        "es": "Config",
+        "pl": "Konfederacja",
+        "zh-cn": "纤维"
+      },
       "1.0.2": {
         "en": "correct name",
         "de": "bezeichnung",
