@@ -124,6 +124,8 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 
 ### **WORK IN PROGRESS**
 
+-   (HCPSMW) License change
+
 ### 1.0.0 (2022-09-30)
 
 -   (HCPSMW) initial release
