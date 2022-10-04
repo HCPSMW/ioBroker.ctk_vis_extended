@@ -122,6 +122,10 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 	### **WORK IN PROGRESS**
 -->
 
+### **WORK IN PROGRESS**
+
+-   (HCPSWM) correct name
+
 ### 1.0.1 (2022-10-04)
 
 -   (HCPSMW) License change
