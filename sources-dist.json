@@ -1,0 +1,7 @@
+{
+    "ctk_vis_extended": {
+        "meta": "https://raw.githubusercontent.com/HCPSMW/ioBroker.ctk_vis_extended/master/io-package.json",
+        "icon": "https://raw.githubusercontent.com/HCPSMW/ioBroker.ctk_vis_extended/master/admin/ctk_vis_extended.png",
+        "type": "visualization"
+    }
+}
