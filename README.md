@@ -2,12 +2,12 @@
 
 # ioBroker.ctk_vis_extended
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.ctk_vis_extended2.svg)](https://www.npmjs.com/package/iobroker.ctk_vis_extended2)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.ctk_vis_extended2.svg)](https://www.npmjs.com/package/iobroker.ctk_vis_extended2)
+[![NPM version](https://img.shields.io/npm/v/iobroker.ctk_vis_extended.svg)](https://www.npmjs.com/package/iobroker.ctk_vis_extended)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.ctk_vis_extended.svg)](https://www.npmjs.com/package/iobroker.ctk_vis_extended)
 ![Number of Installations](https://iobroker.live/badges/ctk_vis_extended-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/ctk_vis_extended-stable.svg)
 
-[![NPM](https://nodei.co/npm/iobroker.ctk_vis_extended2.png?downloads=true)](https://nodei.co/npm/iobroker.ctk_vis_extended2/)
+[![NPM](https://nodei.co/npm/iobroker.ctk_vis_extended.png?downloads=true)](https://nodei.co/npm/iobroker.ctk_vis_extended/)
 
 **Tests:** ![Test and Release](https://github.com/HCPSMW/ioBroker.ctk_vis_extended/workflows/Test%20and%20Release/badge.svg)
 
@@ -121,6 +121,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
 ### 1.0.1 (2022-10-04)
 
 -   (HCPSMW) License change
