@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "ctk_vis_extended",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "news": {
+      "1.0.1": {
+        "en": "License change",
+        "de": "Lizenzänderung",
+        "ru": "Изменение лицензии",
+        "pt": "Mudança de licença",
+        "nl": "Verandering",
+        "fr": "Changement de licence",
+        "it": "Cambio di licenza",
+        "es": "Cambio de licencia",
+        "pl": "Licencja",
+        "zh-cn": "流动变化"
+      },
       "1.0.0": {
         "en": "initial release",
         "de": "erstausstrahlung",
