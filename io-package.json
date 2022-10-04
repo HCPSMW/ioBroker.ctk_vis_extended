@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "ctk_vis_extended",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "news": {
+      "1.0.4": {
+        "en": "npm",
+        "de": "npm",
+        "ru": "нпм",
+        "pt": "não",
+        "nl": "npm",
+        "fr": "npm",
+        "it": "n",
+        "es": "npm",
+        "pl": "pn",
+        "zh-cn": "页:1"
+      },
       "1.0.3": {
         "en": "Config",
         "de": "Konkret",
